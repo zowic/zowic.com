@@ -1,18 +1,22 @@
 @import "foundation/components/type";
 @import "foundation/components/grid";
-@import "foundation/components/inline-lists";
+//@import "foundation/components/inline-lists";
 //@import "foundation/components/buttons";
 //@import "foundation/components/button-groups";
 
 @import "normalize";
 
 h1 {
-    text-indent: -1000px;
+    line-height: 1.8;
+    margin: 0;
+
     a {
         width: 100%;
         display: block;
-        background-image: url("/static/images/logo-small.png");
-        background-size: 125px 27px;
-        background-repeat: no-repeat;
+        color: orange;
+
+        &:hover {
+            color: orange;
+        }
     }
 }
